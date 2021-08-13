@@ -1,0 +1,7 @@
+.deco {
+    padding: 52px 32px;
+    &__content {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}

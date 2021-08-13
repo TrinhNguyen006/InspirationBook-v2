@@ -1,0 +1,158 @@
+$font-primary-bold: 'fabrikat-bold';
+$font-primary-medium: 'fabrikat-medium';
+$font-primary-light: 'fabrikat-light';
+$font-primary: 'fabrikat-regular';
+
+a{
+    text-decoration: none;
+}
+.app-login-form{
+    text-align: center;
+    margin: 62px 154px 48px 155px;
+}
+.app-login-form{
+    .title-login-form{
+        font-size: 25px;
+        line-height: 35px;
+        color: #3D3C40;
+        margin-bottom: 65px;
+        .title{
+            font-family: $font-primary-medium;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .title-sub{
+            font-family: $font-primary-bold;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+    }
+}
+.app-login-form{
+    .connect-login-form{
+        margin-bottom: 45px;
+        a{
+            font-family: $font-primary-medium;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 60px;
+            display: inline-block;
+            padding: 0 36px 0 10px;
+            margin: 0 13px 0 0;
+            min-width: 40%;
+            -webkit-box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
+            box-shadow: 0px 3px 7px -2px rgba(0,0,0,0.75);
+        }
+        .facebook-login{
+            background-color: #4267B2;
+            color: #ffff;
+            &:hover{
+                background-color: #33508a; 
+            }
+            .text-content-btt{
+                line-height: 60px;
+            }
+            .icon-fb{
+                margin-right: 35px;
+                background: #ffff;
+                padding: 9px 0 7.45px 1px;
+                border-radius: 2px;
+                img{
+                    margin-bottom: -17px;
+                    margin-right: -7px;
+                    filter: invert(.5) sepia(5) saturate(10) hue-rotate(204deg);
+                    height: 39px;
+                }
+            }
+        }
+        .google-login{
+            margin: 0;
+            background-color: #ffffff;
+            color: rgba(61,60,64,0.7);
+            &:hover{
+                background-color: #e0e7ee;
+            }
+            .icon-gg{
+                margin-right: 35px;
+                img{
+                    margin-bottom: -10px;
+                }
+            }
+            .google-ic{
+                max-width: 28px;
+            }         
+        }
+    }
+}
+.app-login-form{
+    .line-login-form{
+        display: flex;
+        margin-bottom: 21px;
+        .line-l{
+            width: 259px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0.5px solid #979797;
+        }
+        .line-r{
+            width: 250px;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0.5px solid #979797;
+        }
+        .line-text{
+            padding: 0 5px;
+            margin: 0 27px 0 30px;
+            .ou-line-text{
+                font-family: $font-primary-bold;
+                font-size: 14px;
+                font-weight: 700;
+                color: #3D3C40;
+            }
+        }
+    }
+}
+/* input form*/
+.input-form{
+    .e-mail{
+        width: 100%;
+        font-family: $font-primary-light;
+        font-weight: 300;
+        font-size: 17px;
+        color: #3D3C40;
+    }
+}
+/*end input form*/
+.input-login-form{
+    .continuer-login-form{
+        display: block;
+        width: 100%;
+        padding: 19px 0 19px 0;
+        background: #3D3C40;
+        font-family: $font-primary;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        color: #ffff;
+        &:hover{
+            background: #252427;
+        }
+    }
+}
+.se-connecter-login-form{
+    margin-top: 15px;
+    .se-connecter{
+        .se-con{
+            font-family: $font-primary-bold;
+            font-weight: 700;
+            color: #3D3C40;
+            font-size: 14px;
+            text-decoration: underline 2px #3D3C40;
+            line-height: 42px;
+            margin-bottom: 0;
+        }
+    } 
+}

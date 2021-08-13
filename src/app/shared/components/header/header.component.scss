@@ -1,0 +1,18 @@
+@import '../../../../styles/colors/colors.scss';
+
+.tab-bar {
+    min-height: 69px;
+    a {
+        line-height: 24px;
+        &:hover {
+            font-weight: 600;
+        }
+        &.active-link {
+            font-weight: 600;
+            padding: 13px 32px;
+            border-radius: 24px;
+            background-color: $white;
+            color: $gray;
+        }
+    }
+}

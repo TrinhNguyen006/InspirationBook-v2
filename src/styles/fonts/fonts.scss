@@ -1,0 +1,65 @@
+$font-primary: 'fabrikat-regular';
+$font-primary-light: 'fabrikat-light';
+$font-primary-medium: 'fabrikat-medium';
+$font-primary-bold: 'fabrikat-bold';
+$font-primary-black: 'fabrikat-black';
+$font-savana: 'little-savana-regular';
+$font-highlighted: 'fabrikat-medium';
+
+@font-face {
+  font-family: $font-primary-light;
+  src: url('/assets/fonts/fabrikat-light-webfont.woff2') format('woff2'),
+    url('/assets/fonts/fabrikat-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-primary;
+  src: url('/assets/fonts/fabrikat-regular-webfont.woff2') format('woff2'),
+    url('/assets/fonts/fabrikat-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-primary-medium;
+  src: url('/assets/fonts/fabrikat-medium-webfont.woff2') format('woff2'),
+    url('/assets/fonts/fabrikat-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-primary-bold;
+  src: url('/assets/fonts/fabrikat-bold-webfont.woff2') format('woff2'),
+    url('/assets/fonts/fabrikat-bold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-primary-black;
+  src: url('/assets/fonts/fabrikat-black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-savana;
+  src: url('/assets/fonts/LittleSavana-Regular.eot') format('eot'),
+    url('/assets/fonts/LittleSavana-Regular.woff') format('woff'),
+    url('/assets/fonts/LittleSavana-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+    font-family: $font-primary;
+}

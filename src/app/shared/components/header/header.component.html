@@ -1,0 +1,41 @@
+<div
+    fxLayout="column"
+    fxFlex
+    class="app-bg-w"
+>
+    <div
+        fxLayout="row"
+        fxFlex
+        class="app-pa-125 app-pl-2 app-pr-2 app-ai-c"
+    >
+        <div fxFlex></div>
+        <div fxFlex class="app-ta-c">
+            <img
+                src="./assets/icons/logo.svg"
+                alt="logo"
+                class="cursor-pointer"
+            />
+        </div>
+        <div fxFlex fxLayout="row" class="app-ai-c app-ta-r app-jc-e">
+            <img
+                src="./assets/icons/symbols-icons-16-share-hover.svg"
+                alt="share"
+                class="app-w-15 cursor-pointer app-mr-2"
+            />
+            <mat-icon class="app-icon-17 app-important cursor-pointer app-mr-2">favorite_border</mat-icon>
+            <img (click)="onShowLoginForm()" src="./assets/icons/user.svg" alt="default user" class="app-w-225 cursor-pointer" />
+        </div>
+    </div>
+    <div
+        fxLayout="row"
+        fxFlex
+        class="app-bg-gray app-jc-c app-ai-c tab-bar"
+    >
+        <a class="app-c-white app-td-n app-mr-35" [routerLink]="['/']" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Mon profil déco</a>
+        <a class="app-c-white app-td-n app-mr-35" [routerLink]="['/1']" routerLinkActive="active-link">Ma shopping-list</a>
+        <a class="app-c-white app-td-n app-mr-35" [routerLink]="['/2']" routerLinkActive="active-link">Réalisations 3D</a>
+        <a class="app-c-white app-td-n app-mr-35" [routerLink]="['/3']" routerLinkActive="active-link">Mes palettes</a>
+        <a class="app-c-white app-td-n app-mr-35" [routerLink]="['/4']" routerLinkActive="active-link">Mon projet 3D</a>
+        <a class="app-c-white app-td-n" [routerLink]="['/5']" routerLinkActive="active-link">Offres exclusives</a>
+    </div>
+</div>

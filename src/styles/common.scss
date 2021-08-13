@@ -1,0 +1,98 @@
+@import './variables/variables.scss';
+@import './mixins/icon.scss';
+@import './colors/colors.scss';
+
+//width
+.app-w-15 {
+    width: 1.5 * $spacer;
+}
+.app-w-225 {
+    width: 2.25 * $spacer;
+}
+
+// icon-size
+.app-icon-17 {
+    @include md-icon-size(1.7);
+    &.app-important {
+        @include md-icon-size(1.7);
+    }
+}
+
+// padding
+.app-pt-175 {
+    padding-top: 1.75 * $spacer;
+}
+.app-pa-125 {
+    padding: 1.25 * $spacer;
+}
+.app-pl-2 {
+    padding-left: 2 * $spacer;
+}
+.app-pr-2 {
+    padding-right: 2 * $spacer;
+}
+
+//flex
+.app-ai-c {
+    align-items: center;
+}
+.app-jc-e {
+    justify-content: flex-end;
+}
+.app-jc-c {
+    justify-content: center;
+}
+
+// text align
+.app-ta-c {
+    text-align: center;
+}
+.app.ta-r {
+    text-align: right;
+}
+
+// text
+.app-td-n {
+    text-decoration: none;
+}
+
+// margin
+.app-mt-175 {
+    margin-top: 1.75 * $spacer;
+}
+.app-mr-2 {
+    margin-right: 2 * $spacer;
+}
+.app-mr-35 {
+    margin-right: 3.5 * $spacer;
+}
+
+// color
+.app-c-white {
+    color: $white;
+}
+.app-c-gray {
+    color: $gray;
+}
+
+// background color
+.app-bg-gray {
+    background-color: $gray;
+}
+.app-bg-w {
+    background-color: $white;
+}
+
+.app-bg-white-08 {
+    background-color: rgba($white, 0.8);
+}
+
+// font-size
+.app-fs-175, .app-fs-175.app-important {
+    font-size: 1.75 * $spacer;
+}
+
+//font-weight
+.app-fw-b {
+    font-weight: bold;
+}
